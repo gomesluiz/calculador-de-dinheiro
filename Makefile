@@ -51,3 +51,7 @@ reset: # Reset to the HEAD
 reset:
 	@git branch backup
 	@git reset --hard HEAD~1
+
+commit:
+commit:
+	@git add . && git commit 
