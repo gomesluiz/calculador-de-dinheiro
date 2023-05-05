@@ -22,7 +22,6 @@ class Dinheiro:
         """
         if self._moeda != dinheiro._moeda:
             raise RuntimeError("Dinheiros com moedas diferentes")
-        
         return Dinheiro(self._valor + dinheiro._valor, self._moeda)
 
     def __eq__(self, outro):
